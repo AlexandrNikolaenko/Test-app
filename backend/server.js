@@ -14,9 +14,9 @@ class Connection {
     constructor () {
       this.con =  mysql2.createConnection({
         host: host,
-        user: 'AliBaBa',
-        password: 'A9l0E6x0',
-        database: 'TestApp'
+        user: 'username',
+        password: 'password',
+        database: 'dbname'
       })}
   
     connect(callback) {
